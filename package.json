@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/jypblue/blog/issues"
   },
-  "homepage": "https://github.com/jypblue/blog#readme",
+  "homepage": "https://jypblue.github.io/blog#readme",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },

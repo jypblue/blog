@@ -1,4 +1,4 @@
-cd blog
+cd jypblue
 git init
 git add -A
 git commit -m 'deploy'
