@@ -4,8 +4,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'JYPBlue',
-      description: '我的笔记'
+      title: 'JypBlue',
+      description: 'jypblue的个人笔记'
     }
   },
   head: [
