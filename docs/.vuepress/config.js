@@ -1,5 +1,6 @@
 module.exports = {
   dest: 'jypblue',
+  base: '/blog/',
   locales: {
     '/': {
       lang: 'zh-CN',
