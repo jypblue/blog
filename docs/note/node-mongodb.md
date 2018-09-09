@@ -5,7 +5,7 @@
 
 1.安装mongodb
 
-首先我们进入mongodb官网<https://www.mongodb.org/downloads#production> 选择自己需要的版本下载，然后直接点击安装即可。亦或者我们直接通过Homebrew进行安装，直接打开shell终端,运行命令行
+首先我们进入mongodb官网[mongodb](https://www.mongodb.org/downloads#production) 选择自己需要的版本下载，然后直接点击安装即可。亦或者我们直接通过Homebrew进行安装，直接打开shell终端,运行命令行
 
 ```brew install mongodb```
 

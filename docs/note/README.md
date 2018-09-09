@@ -117,4 +117,5 @@ box-shadow: 0 -1px 1px -1px rgba(0, 0, 0, 0.5);
 
 可以通过修改图片来达到圆角的效果，但是由于图片的原因，压缩过后的图片边缘变模糊了（不放大的情况下不明显），需要引用图片或者base64，边框颜色修改起来不方便。
 
-参考：<http://stackoverflow.com/questions/8640521/can-you-have-a-0-5px-border-on-a-retina-display/25910251#25910251>
+参考：
+[stackoverflow](http://stackoverflow.com/questions/8640521/can-you-have-a-0-5px-border-on-a-retina-display/25910251#25910251)

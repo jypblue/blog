@@ -12,7 +12,7 @@ categories: tool
 # Webpack构建前端工程项目
 
 最近开始学习React/ReactNative，需要动手实践，按照官网提供的方式可以运行React的简单小例子，但是很不方便，就想可不可以使用工具搭建一个前端的React-ES6-Sass的开发环境方便开发运行，因此想到了现在很火的webpack。之前自己一直都用的是gulp来构建sass和es6，所以打算研究一下webpack，利用gulp和webpack结合起来，用来管理与打包。
-先上项目地址：<a href="https://github.com/jypblue/webpack-scheme">https://github.com/jypblue/webpack-scheme</a>
+先上项目地址：[webpack-scheme](https://github.com/jypblue/webpack-scheme)
 
 <!-- more -->
 
@@ -22,18 +22,18 @@ categories: tool
 
 webpack自从出现就很火，因为他可以管理前端的各种资源，查看了一下它的官网，发现不太容易上手，所以就在网上找了两篇关于webpack的入门教程学习：
 
-1. <a href="https://github.com/ruanyf/webpack-demos">https://github.com/ruanyf/webpack-demos</a>
-2. <a href="https://github.com/petehunt/webpack-howto/blob/master/README-zh.md">https://github.com/petehunt/webpack-howto/blob/master/README-zh.md</a>
+1. [ruanyf/webpack-demos](https://github.com/ruanyf/webpack-demos)
+2. [webpack-howto](https://github.com/petehunt/webpack-howto/blob/master/README-zh.md)
 
 推荐先学习这两篇入门教程，做到可以入门使用webpack后，再去官网查看文档学习。
 
 ### 2. koa学习
 
-因为是需要搭建一个工程项目的开发环境，所以需要本地构建服务器，感谢node，让js的生态越来越好。现有的前端工具都是建立在node环境上。打算利用koa框架本地构建服务器，所以需要学习koa的使用，于是去koa官网学习了koa简单的基本用法，贴一下koa官网的地址<a href="http://koa.bootcss.com/#">koa中文网</a>;当然使用express框架也是ok的，只是觉得打算构建es6的开发环境，所以就打算使用面向未来的koa框架
+因为是需要搭建一个工程项目的开发环境，所以需要本地构建服务器，感谢node，让js的生态越来越好。现有的前端工具都是建立在node环境上。打算利用koa框架本地构建服务器，所以需要学习koa的使用，于是去koa官网学习了koa简单的基本用法，贴一下koa官网的地址[koa中文网](http://koa.bootcss.com/#);当然使用express框架也是ok的，只是觉得打算构建es6的开发环境，所以就打算使用面向未来的koa框架
 
 ### 3. gulp
 
-当然gulp的使用也得知道，因为需要用它来做任务管理，这里就不详细讲了，gulp官网已经讲得很好了，贴一下gulp官网地址：<a href="http://www.gulpjs.com.cn/">gulp中文网</a>
+当然gulp的使用也得知道，因为需要用它来做任务管理，这里就不详细讲了，gulp官网已经讲得很好了，贴一下gulp官网地址：[gulp中文网](http://www.gulpjs.com.cn/)
 
 ## 二、前端开发环境搭建
 

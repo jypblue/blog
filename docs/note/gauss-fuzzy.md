@@ -57,7 +57,7 @@ filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false)
 
 ### 利用StackBlur.js库实现
 
-该js库的demo地址：<http://www.quasimondo.com/StackBlurForCanvas/StackBlurDemo.html>
+该js库的demo地址：[StackBlurForCanvas](http://www.quasimondo.com/StackBlurForCanvas/StackBlurDemo.html)
 
 该方法可以实现图片的高斯模糊效果，不依赖其他任何JS框架，一般用法如下：
 

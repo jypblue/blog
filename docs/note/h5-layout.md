@@ -566,15 +566,15 @@ ios4下不支持position:fixed
 
 最新版本已经更新到1.16
 
-官网：<http://zeptojs.com/>
+官网：[zeptojs](http://zeptojs.com)
 
-中文(非官网)：<http://www.css88.com/doc/zeptojs_api/>
+中文(非官网)：[zeptojs_api](http://www.css88.com/doc/zeptojs_api)
 
 ### 常使用的扩展模块：
 
-浏览器检测：<https://github.com/madrobby/zepto/blob/master/src/detect.js>
+浏览器检测：[detect](https://github.com/madrobby/zepto/blob/master/src/detect.js)
 
-tap事件：<https://github.com/madrobby/zepto/blob/master/src/touch.js>
+tap事件：[touch](https://github.com/madrobby/zepto/blob/master/src/touch.js)
 
 ### iscroll.js
 
@@ -584,7 +584,7 @@ tap事件：<https://github.com/madrobby/zepto/blob/master/src/touch.js>
 
 最新版本已经更新到5.0
 
-官网：<http://cubiq.org/iscroll-5>
+官网：[iscroll](http://cubiq.org/iscroll-5)
 
 ### underscore.js
 
@@ -594,7 +594,7 @@ tap事件：<https://github.com/madrobby/zepto/blob/master/src/touch.js>
 
 最新版本已经更新到1.8.2
 
-官网：<http://underscorejs.org/>
+官网：[underscorejs](http://underscorejs.org)
 
 ### 滑屏框架
 

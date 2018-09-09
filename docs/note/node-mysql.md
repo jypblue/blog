@@ -11,7 +11,7 @@ categories: node
 
 **1. 安装MySQL**
 
- 首先去MySQL官网下载安装包<a href="http://dev.mysql.com/downloads/mysql/" target="_blank">http://dev.mysql.com/downloads/mysql/</a>，
+ 首先去MySQL官网下载安装包[mysql](http://dev.mysql.com/downloads/mysql)，
  注意mac下安装dmg文件比较方便。
 
  点击安装之后测试一下安装是否成功，在shell终端中键入`mysql`命令看是否识别该命令，键入`mysqladmin --version`查看默认数据库版本信息。
