@@ -26,7 +26,7 @@ module.exports = {
   },
   themeConfig: {
     repo: 'jypblue/blog',
-    editLinks: true,
+    editLinks: false,
     docsDir: 'docs',
     locales: {
       '/': {
@@ -62,16 +62,15 @@ function genSidebarConfig (title) {
       title,
       collapsable: false,
       children: [
-        '',
-        'algorithm',
+        '', // real1px
         'gauss-fuzzy',
-        'gulp-res-zip',
-        'gulp-sass',
         'h5-layout',
         'h5-pits',
+        'algorithm',
+        'gulp-res-zip',
+        'gulp-sass',
         'node-mongodb',
         'node-mysql',
-        'retina1px',
         'webpack-config',
       ]
     }
