@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: 开始 →
-actionLink: /guide/
+actionText: 开始查看
+actionLink: /note/
 footer: MIT Licensed | Copyright © 2018-present zx.wang
 ---
 

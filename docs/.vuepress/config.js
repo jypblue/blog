@@ -4,8 +4,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'JYPBlue',
-      description: '我的笔记'
+      title: 'JypBlue',
+      description: '个人博客，前端笔记'
     }
   },
   head: [
@@ -21,6 +21,9 @@ module.exports = {
   ],
   serviceWorker: true,
   theme: 'vue',
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     repo: 'jypblue/blog',
     editLinks: true,
@@ -34,7 +37,7 @@ module.exports = {
         nav: [
           {
             text: '笔记',
-            link: '/guide/',
+            link: '/note/',
           },
           // {
           //   text: '配置参考',
@@ -46,7 +49,7 @@ module.exports = {
           // }
         ],
         sidebar: {
-          '/guide/': genSidebarConfig('笔记')
+          '/note/': genSidebarConfig('笔记')
         }
       }
     }
@@ -60,14 +63,16 @@ function genSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        'getting-started',
-        'basic-config',
-        'assets',
-        'markdown',
-        'using-vue',
-        'custom-themes',
-        'i18n',
-        'deploy'
+        'algorithm',
+        'gauss-fuzzy',
+        'gulp-res-zip',
+        'gulp-sass',
+        'h5-layout',
+        'h5-pits',
+        'node-mongodb',
+        'node-mysql',
+        'retina1px',
+        'webpack-config',
       ]
     }
   ]
