@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: 开始查看
+actionText: Let's Go
 actionLink: /note/
 footer: MIT Licensed | Copyright © 2018-present zx.wang
 ---
