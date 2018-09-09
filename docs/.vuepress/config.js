@@ -22,7 +22,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   markdown: {
-    lineNumbers: true
+    lineNumbers: false
   },
   themeConfig: {
     repo: 'jypblue/blog',
