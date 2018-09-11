@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>国际化支持(internationalization) | JypBlue</title>
+    <meta name="description" content="个人博客，前端笔记">
+    <link rel="icon" href="/blog/logo.png">
+  <link rel="manifest" href="/blog/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/blog/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/blog/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.b8b894dc.css" as="style"><link rel="preload" href="/blog/assets/js/app.5fb5eed8.js" as="script"><link rel="preload" href="/blog/assets/js/17.5cf98557.js" as="script"><link rel="prefetch" href="/blog/assets/js/33.39de6789.js"><link rel="prefetch" href="/blog/assets/js/2.78e0f349.js"><link rel="prefetch" href="/blog/assets/js/3.f15861cb.js"><link rel="prefetch" href="/blog/assets/js/4.1425bfa2.js"><link rel="prefetch" href="/blog/assets/js/5.cf8c1a12.js"><link rel="prefetch" href="/blog/assets/js/6.6f7199f4.js"><link rel="prefetch" href="/blog/assets/js/7.3103925e.js"><link rel="prefetch" href="/blog/assets/js/8.6d4aa52c.js"><link rel="prefetch" href="/blog/assets/js/9.7df97052.js"><link rel="prefetch" href="/blog/assets/js/10.59fa6897.js"><link rel="prefetch" href="/blog/assets/js/11.b761840e.js"><link rel="prefetch" href="/blog/assets/js/12.cf7c0ea0.js"><link rel="prefetch" href="/blog/assets/js/13.3899a3ef.js"><link rel="prefetch" href="/blog/assets/js/14.1c78564d.js"><link rel="prefetch" href="/blog/assets/js/15.f290eb49.js"><link rel="prefetch" href="/blog/assets/js/16.bb96a904.js"><link rel="prefetch" href="/blog/assets/js/18.e6c09799.js"><link rel="prefetch" href="/blog/assets/js/19.7bb9e215.js"><link rel="prefetch" href="/blog/assets/js/20.024455c4.js"><link rel="prefetch" href="/blog/assets/js/21.edbe845e.js"><link rel="prefetch" href="/blog/assets/js/22.05efe98d.js"><link rel="prefetch" href="/blog/assets/js/23.f311421c.js"><link rel="prefetch" href="/blog/assets/js/24.22848ebe.js"><link rel="prefetch" href="/blog/assets/js/25.228b41b6.js"><link rel="prefetch" href="/blog/assets/js/26.3d02dead.js"><link rel="prefetch" href="/blog/assets/js/27.eece23ea.js"><link rel="prefetch" href="/blog/assets/js/28.c23adf48.js"><link rel="prefetch" href="/blog/assets/js/29.da4a8620.js"><link rel="prefetch" href="/blog/assets/js/30.ae245cc1.js"><link rel="prefetch" href="/blog/assets/js/31.3d83a967.js"><link rel="prefetch" href="/blog/assets/js/32.3835250e.js"><link rel="prefetch" href="/blog/assets/js/34.5b8388ab.js"><link rel="prefetch" href="/blog/assets/js/35.029759aa.js"><link rel="prefetch" href="/blog/assets/js/36.83ad422e.js"><link rel="prefetch" href="/blog/assets/js/37.05217d1c.js"><link rel="prefetch" href="/blog/assets/js/38.a1ad0578.js"><link rel="prefetch" href="/blog/assets/js/39.671e4c7f.js"><link rel="prefetch" href="/blog/assets/js/40.f2dbb388.js"><link rel="prefetch" href="/blog/assets/js/41.fb4bc475.js"><link rel="prefetch" href="/blog/assets/js/42.178b6321.js"><link rel="prefetch" href="/blog/assets/js/43.7488f6cc.js"><link rel="prefetch" href="/blog/assets/js/44.23f51b16.js"><link rel="prefetch" href="/blog/assets/js/45.afc547c2.js"><link rel="prefetch" href="/blog/assets/js/46.eb8306bd.js"><link rel="prefetch" href="/blog/assets/js/47.52e254a4.js"><link rel="prefetch" href="/blog/assets/js/48.e26182d2.js"><link rel="prefetch" href="/blog/assets/js/49.8722f782.js"><link rel="prefetch" href="/blog/assets/js/50.adc71e85.js"><link rel="prefetch" href="/blog/assets/js/51.31e70f1c.js"><link rel="prefetch" href="/blog/assets/js/52.b96679e1.js"><link rel="prefetch" href="/blog/assets/js/53.afa4b74d.js"><link rel="prefetch" href="/blog/assets/js/54.ef0621ea.js"><link rel="prefetch" href="/blog/assets/js/55.1d7e8873.js"><link rel="prefetch" href="/blog/assets/js/56.c87f7e0f.js"><link rel="prefetch" href="/blog/assets/js/57.50ae7d8e.js"><link rel="prefetch" href="/blog/assets/js/58.4385b784.js"><link rel="prefetch" href="/blog/assets/js/59.ef4442f9.js"><link rel="prefetch" href="/blog/assets/js/60.88bde769.js"><link rel="prefetch" href="/blog/assets/js/61.869d3164.js"><link rel="prefetch" href="/blog/assets/js/62.34894bc7.js"><link rel="prefetch" href="/blog/assets/js/63.a47a5fdc.js"><link rel="prefetch" href="/blog/assets/js/64.e0898e32.js"><link rel="prefetch" href="/blog/assets/js/65.be44c914.js"><link rel="prefetch" href="/blog/assets/js/66.affa7dd4.js"><link rel="prefetch" href="/blog/assets/js/67.8f8c489d.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.b8b894dc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">JypBlue</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/note/" class="nav-link">笔记</a></div><div class="nav-item"><a href="/blog/leetcode/" class="nav-link">算法</a></div> <a href="https://github.com/jypblue/blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/note/" class="nav-link">笔记</a></div><div class="nav-item"><a href="/blog/leetcode/" class="nav-link">算法</a></div> <a href="https://github.com/jypblue/blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav> <div class="carbon-ads"></div> <!----> </div> <div class="page"> <div class="content"><h1 id="国际化支持-internationalization"><a href="#国际化支持-internationalization" aria-hidden="true" class="header-anchor">#</a> 国际化支持(internationalization)</h1> <h2 id="网站级别的国际化配置-site-level-i18n-config"><a href="#网站级别的国际化配置-site-level-i18n-config" aria-hidden="true" class="header-anchor">#</a> 网站级别的国际化配置(site level i18n config)</h2> <p>想要在 VuePress 中支持多语言，首先你需要使用如下的文件结构：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>docs
+├─ README.md
+├─ foo.md
+├─ nested
+│  └─ README.md
+└─ zh
+   ├─ README.md
+   ├─ foo.md
+   └─ nested
+      └─ README.md
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>然后，在 <code>.vuepress/config.js</code> 中指定 <code>locales</code> 选项：</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  locales<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 每个语言对象的键(key)，是语言的访问路径。</span>
+    <span class="token comment">// 然而，一种特例是将 '/' 作为默认语言的访问路径。</span>
+    <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      lang<span class="token punctuation">:</span> <span class="token string">'en-US'</span><span class="token punctuation">,</span> <span class="token comment">// 这个值会被设置在 &lt;html&gt; 的 lang 属性上</span>
+      title<span class="token punctuation">:</span> <span class="token string">'VuePress'</span><span class="token punctuation">,</span>
+      description<span class="token punctuation">:</span> <span class="token string">'Vue-powered Static Site Generator'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">'/zh/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      lang<span class="token punctuation">:</span> <span class="token string">'zh-CN'</span><span class="token punctuation">,</span>
+      title<span class="token punctuation">:</span> <span class="token string">'VuePress'</span><span class="token punctuation">,</span>
+      description<span class="token punctuation">:</span> <span class="token string">'Vue 驱动的静态网站生成工具'</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p>如果某个语言对象没有声明 <code>title</code> 或 <code>description</code>，VuePress 会尝试获取根语言对象上相应的值。如果每个语言对象都声明了 <code>title</code> 和 <code>description</code>，则可以省略根语言对象上的 <code>title</code> 和 <code>description</code>。</p> <h2 id="默认主题的国际化配置-default-theme-i18n-config"><a href="#默认主题的国际化配置-default-theme-i18n-config" aria-hidden="true" class="header-anchor">#</a> 默认主题的国际化配置(default theme i18n config)</h2> <p>默认主题也内置国际化支持，可以通过 <code>themeConfig.locales</code> 来配置，与上面配置相同，也使用 <code>{ path: config }</code> 这种（路径+配置对象）格式。除了可以配置一些整个网站都会用到的文本，每个语言对象都有自己的 <a href="/blog/default-theme-config/#导航栏-navbar">导航栏</a> 和 <a href="/blog/default-theme-config/#侧边栏-sidebar">侧边栏</a>。</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  locales<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">/* ... */</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    locales<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token comment">// text for the language dropdown</span>
+        selectText<span class="token punctuation">:</span> <span class="token string">'Languages'</span><span class="token punctuation">,</span>
+        <span class="token comment">// label for this locale in the language dropdown</span>
+        label<span class="token punctuation">:</span> <span class="token string">'English'</span><span class="token punctuation">,</span>
+        <span class="token comment">// text for the edit-on-github link</span>
+        editLinkText<span class="token punctuation">:</span> <span class="token string">'Edit this page on GitHub'</span><span class="token punctuation">,</span>
+        <span class="token comment">// config for Service Worker </span>
+        serviceWorker<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          updatePopup<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            message<span class="token punctuation">:</span> <span class="token string">&quot;New content is available.&quot;</span><span class="token punctuation">,</span>
+            buttonText<span class="token punctuation">:</span> <span class="token string">&quot;Refresh&quot;</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token comment">// algolia docsearch options for current locale</span>
+        algolia<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Nested'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/nested/'</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        sidebar<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/* ... */</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token string">'/nested/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/* ... */</span><span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token string">'/zh/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 语言下拉菜单的展示文本</span>
+        selectText<span class="token punctuation">:</span> <span class="token string">'选择语言'</span><span class="token punctuation">,</span>
+        <span class="token comment">// 该语言在下拉菜单中的 label 标签</span>
+        label<span class="token punctuation">:</span> <span class="token string">'简体中文'</span><span class="token punctuation">,</span>
+        <span class="token comment">// github 编辑链接的文字</span>
+        editLinkText<span class="token punctuation">:</span> <span class="token string">'在 GitHub 上编辑此页'</span><span class="token punctuation">,</span>
+        serviceWorker<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          updatePopup<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            message<span class="token punctuation">:</span> <span class="token string">&quot;发现新内容可用.&quot;</span><span class="token punctuation">,</span>
+            buttonText<span class="token punctuation">:</span> <span class="token string">&quot;刷新&quot;</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'嵌套'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/zh/nested/'</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        algolia<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        sidebar<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          <span class="token string">'/zh/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/* ... */</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token string">'/zh/nested/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/* ... */</span><span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br></div></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新: </span> <span class="time">2018-9-4 11:45:13</span></div></div> <!----> <div class="bsa-cpc-wrapper"><div class="bsa-cpc"></div></div></div> <!----></div></div>
+    <script src="/blog/assets/js/17.5cf98557.js" defer></script><script src="/blog/assets/js/app.5fb5eed8.js" defer></script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c3446600de53c605ba4f6c792e47dff9";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </body>
+</html>
