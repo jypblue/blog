@@ -40,17 +40,18 @@ module.exports = {
             link: '/note/',
           },
           {
-            text: '算法',
+            text: 'LeetCode',
             link: '/leetcode/'
           },
-          // {
-          //   text: '默认主题配置',
-          //   link: '/default-theme-config/'
-          // }
+          {
+            text: '设计模式',
+            link: '/design-pattern/'
+          }
         ],
         sidebar: {
-          '/note/': genSidebarConfig('笔记'),
-          '/leetcode/': genSidebarLeetCodeConfig('算法')
+          '/note/': genSidebarNoteConfig('笔记'),
+          '/leetcode/': genSidebarLeetCodeConfig('算法'),
+          '/design-pattern/': genSidebarDesignPatternConfig('设计模式'),
         }
       }
     }
@@ -58,7 +59,7 @@ module.exports = {
 }
 
 // note
-function genSidebarConfig (title) {
+function genSidebarNoteConfig (title) {
   return [
     {
       title,
@@ -122,6 +123,19 @@ function genSidebarLeetCodeConfig (title) {
         '321_Create_Maximum_Number',
         '330_Patching_Array',
 
+      ]
+    }
+  ]
+}
+
+// design-pattern
+function genSidebarDesignPatternConfig (title) {
+  return [
+    {
+      title,
+      collapsable: false,
+      children: [
+        '',
       ]
     }
   ]
