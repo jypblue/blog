@@ -6,9 +6,9 @@
 2. Hash Table
 3. Two Pointers
 
->Given a string, find the length of the <strong>longest substring</strong> without repeating characters.
+>Given a string, find the length of the **longest substring** without repeating characters.
 >
-><strong>Examples:</strong>
+>**Examples:**
 >
 >Given `"abcabcbb"`, the answer is `"abc"`, which the length is 3.
 >

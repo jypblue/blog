@@ -18,7 +18,7 @@ exports[`link should render external links correctly 2`] = `
 
 exports[`link should render external links correctly 3`] = `
 <p>
-  <a href="https://google.com" target="_blank" rel="noopener noreferrer">some <strong>link</strong> with <code>code</code>
+  <a href="https://google.com" target="_blank" rel="noopener noreferrer">some **link** with <code>code</code>
     <OutboundLink/>
   </a>
 </p>

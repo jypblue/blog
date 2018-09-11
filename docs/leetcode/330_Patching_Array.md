@@ -4,7 +4,7 @@
 
 >Given a sorted positive integer array nums and an integer n, add/patch elements to the array such that any number in range [1, n] inclusive can be formed by the sum of some elements in the array. Return the minimum number of patches required.
 >
-><strong>Example 1:</strong>
+>**Example 1:**
 >
 >nums = [1, 3], n = 6
 >
@@ -18,7 +18,7 @@
 >
 >So we only need 1 patch.
 >
-><strong>Example 2:</strong>
+>**Example 2:**
 >
 >nums = [1, 5, 10], n = 20
 >
@@ -26,7 +26,7 @@
 >
 >The two patches can be [2, 4].
 >
-><strong>Example 3:</strong>
+>**Example 3:**
 >
 >nums = [1, 2, 2], n = 5
 >

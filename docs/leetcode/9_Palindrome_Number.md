@@ -5,7 +5,7 @@
 
 >Determine whether an integer is a palindrome. Do this without extra space.
 >
-><strong>Some hints:</strong>
+>**Some hints:**
 >
 Could negative integers be palindromes? (ie, -1)
 >

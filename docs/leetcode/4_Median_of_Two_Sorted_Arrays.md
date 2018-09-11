@@ -6,18 +6,18 @@
 2. Array
 3. Divide and Conquer
 
-> There are two sorted arrays <strong>nums1</strong> and <strong>nums2</strong> of size m and n respectively.
+> There are two sorted arrays **nums1** and **nums2** of size m and n respectively.
 >
 Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
-><strong>Example 1:</strong>
+>**Example 1:**
 >
 ```js
 nums1 = [1, 3]
 nums2 = [2]
 The median is 2.0
 ```
-><strong>Example 2:</strong>
+>**Example 2:**
 >
 ```js
 nums1 = [1, 2]

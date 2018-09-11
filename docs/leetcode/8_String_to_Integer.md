@@ -5,11 +5,11 @@
 2. Math
 
 >Implement atoi to convert a string to an integer.
-><strong>Hint: </strong>Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
+>**Hint: **Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
 
-><strong>Notes: </strong>It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front.
+>**Notes: **It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front.
 
-><strong>Requirements for atoi:</strong>
+>**Requirements for atoi:**
 >The function first discards as many whitespace characters as necessary until the first non-whitespace character is found. Then, starting from this character, takes an optional initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value.
 
 >The string can contain additional characters after those that form the integral number, which are ignored and have no effect on the behavior of this function.

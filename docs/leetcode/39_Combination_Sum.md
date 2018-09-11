@@ -7,7 +7,7 @@
 
 >The same repeated number may be chosen from C unlimited number of times.
 >
-><strong>Note:</strong>
+>**Note:**
 >* All numbers (including target) will be positive integers.
 >* The solution set must not contain duplicate combinations.
 >
