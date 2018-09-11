@@ -5,7 +5,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'JypBlue',
-      description: 'jypblue的个人笔记'
+      description: '个人博客，前端笔记'
     }
   },
   head: [
@@ -21,9 +21,12 @@ module.exports = {
   ],
   serviceWorker: true,
   theme: 'vue',
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     repo: 'jypblue/blog',
-    editLinks: true,
+    editLinks: false,
     docsDir: 'docs',
     locales: {
       '/': {
@@ -34,40 +37,91 @@ module.exports = {
         nav: [
           {
             text: '笔记',
-            link: '/guide/',
+            link: '/note/',
           },
-          // {
-          //   text: '配置参考',
-          //   link: '/config/'
-          // },
+          {
+            text: '算法',
+            link: '/leetcode/'
+          },
           // {
           //   text: '默认主题配置',
           //   link: '/default-theme-config/'
           // }
         ],
         sidebar: {
-          '/guide/': genSidebarConfig('笔记')
+          '/note/': genSidebarConfig('笔记'),
+          '/leetcode/': genSidebarLeetCodeConfig('算法')
         }
       }
     }
   }
 }
 
+// note
 function genSidebarConfig (title) {
   return [
     {
       title,
       collapsable: false,
       children: [
+        '', // real1px
+        'gauss-fuzzy',
+        'h5-layout',
+        'h5-pits',
+        'algorithm',
+        'gulp-res-zip',
+        'gulp-sass',
+        'node-mongodb',
+        'node-mysql',
+        'webpack-config',
+      ]
+    }
+  ]
+}
+// LeetCode
+function genSidebarLeetCodeConfig (title) {
+  return [
+    {
+      title,
+      collapsable: false,
+      children: [
         '',
-        'getting-started',
-        'basic-config',
-        'assets',
-        'markdown',
-        'using-vue',
-        'custom-themes',
-        'i18n',
-        'deploy'
+        '1_Two_Sum',
+        '2_Add_Two_Numbers',
+        '3_Longest_Substring_Without_Repeating_Characters',
+        '4_Median_of_Two_Sorted_Arrays',
+        '5_Longest_Palindromic_Substring',
+        '6_ZigZag_Conversion',
+        '7_Reverse_Integer',
+        '8_String_to_Integer',
+        '9_Palindrome_Number',
+        '10_Regular_Expression_Matching',
+        '11_Container_With_Most_Water',
+        '12_Integer_to_Roman',
+        '13_ Roman_to_Integer',
+        '14_Longest_Common_Prefix',
+        '15_3Sum',
+        '16_3Sum_Closest',
+        '17_Letter_Combinations_of_a_Phone_Number',
+        '18_4Sum',
+        '19_Remove_Nth_Node_From_End_of_List',
+        '39_Combination_Sum',
+        '70_Climbing_Stairs',
+        '77_Combinations',
+        '100_Same_Tree',
+        '115_distinct_subsequencesmd',
+        '131_Palindrome_Partitioning',
+        '149_Max_Points_on_a_Line',
+        '152_Maximum_Product_Subarray',
+        '168_Excel_Sheet_Column_Title',
+        '171_Excel_Sheet_Column_Number',
+        '221_Maximal_Square',
+        '273_Integer_to_English_Words',
+        '290_Word_Pattern',
+        '310_Minimum_Height_Trees',
+        '321_Create_Maximum_Number',
+        '330_Patching_Array',
+
       ]
     }
   ]
