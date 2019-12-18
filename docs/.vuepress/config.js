@@ -75,6 +75,7 @@ function genSidebarNoteConfig (title) {
         'node-mongodb',
         'node-mysql',
         'webpack-config',
+        'centOS-jenkins',
       ]
     }
   ]
